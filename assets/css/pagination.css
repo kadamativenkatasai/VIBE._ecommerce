@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap");
+
+.anchor__design {
+  text-decoration: none;
+  color: rgb(123, 22, 57);
+}
+.anchor__design:hover {
+  color: rgb(134, 21, 51);
+}
+
+.pagination__head {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* css for pagination */
+.pagination__link--json {
+  padding: 5px 10px;
+  cursor: pointer;
+  border: 1px solid lightgray;
+  transform: all 0.3s ease;
+}
+
+.pagination__link--json:hover {
+  transform: scale(1.1);
+}
